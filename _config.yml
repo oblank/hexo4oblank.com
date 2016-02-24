@@ -65,6 +65,15 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+# Comment
+duoshuo:
+  enable: false
+  shortname: oblank
+
+disqus:
+   enable: true
+   shortname: your-disqus-shortname
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
