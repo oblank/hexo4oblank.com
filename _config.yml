@@ -74,6 +74,11 @@ disqus:
    enable: true
    shortname: your-disqus-shortname
 
+admin:
+ username: dyh1919@gmail.com
+ password_hash: $2a$08$q72WYxQDSee6.M2ygzPwYOTE9TD6KuVuXFNJuk0KbK3hl91CC5SJ.
+ secret: ssxeewiiwnfghsiella029384jsfi22
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
