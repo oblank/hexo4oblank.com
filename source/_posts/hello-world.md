@@ -1,6 +1,8 @@
 ---
 title: hello world
-tags: [teach]
+tags:
+  - ProductHunt
+  - HuntNew
 categories:
   - 学习
   - 思考
@@ -9,8 +11,13 @@ categories:
 date: 2016-02-24 18:25:00
 ---
 
-## just a test
+## tags:
 
-## another test
-
-## third test
+  1, ProductHunt
+  2, HuntNew
+  
+## categories:
+  1, 学习
+  2, 思考
+  3, 设计
+  4, 运营
