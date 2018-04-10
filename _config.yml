@@ -83,6 +83,6 @@ admin:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/oblank/oblank.com.git
+  repo: https://github.com/oblank/oblank.github.io.git
 #  branch: [branch]
 #  message: [message]
