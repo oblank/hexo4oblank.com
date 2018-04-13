@@ -13,11 +13,11 @@ categories:
 ## 怎么将navigation传递到子级组件？
 当需要在子组件中使用`navigation`导航时，一种方法是直接在引入组件时将 navigation 作为props传递，另一种是使用 `withNavigation`，后者更优雅。
 
-###方法一：引用时传递	
+### 方法一：引用时传递	
 ```
 <Component navigation={this.props.navigation} ...otherProps />
 ```
-###方法二：使用 `withNavigation`， [参见官方文档](https://reactnavigation.org/docs/connecting-navigation-prop.html)
+### 方法二：使用 `withNavigation`， [参见官方文档](https://reactnavigation.org/docs/connecting-navigation-prop.html)
 ```
 import React from 'react';  
 import { Button } from 'react-native';  
