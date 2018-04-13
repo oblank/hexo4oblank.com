@@ -36,7 +36,7 @@ export default withNavigation(Component);
 ```
 <Component ...otherProps />
 ```
-## iOS真机、模拟器调试兼容网络问题
+## RN在iOS真机、模拟器调试时网络兼容问题
 在RN生成的XCode项目里，默认是通过远程方式调试，只要手机、模拟器处于同一网络即可，但我们的手机极有可能会切换网络（譬如上下班、吃饭、上厕所...等等），而这会导到远程调试的应用无法打开，可以兼容处理。
 
 打开XCode项目，修改 `AppDelegate.m`，将原有的
@@ -52,4 +52,46 @@ jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot
   // release
  jsCodeLocation = [[NSBundle  mainBundle] URLForResource:@"main"  withExtension:@"jsbundle"];
  #endif
+```
+这会将真机像发布时一样把文件打包进APP，不受网络切换影响
+
+## 获取组件的屏幕位置
+当使用`react-native-modal-popover`组件时，有一个参数`fromRect`用来指明组件的位置，这时候我们取要获取组件的位置，使用`NativeModules.UIManager.measure`
+```
+import React, { Component } from 'react'; 
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  findNodeHandle,
+  NativeModules 
+} from 'react-native';
+import Popover, { PopoverTouchable } from 'react-native-modal-popover';
+
+....
+
+const handle = findNodeHandle(this.refs[ 'popoverAnchor' ]); 
+if (handle) {
+    NativeModules.UIManager.measure(handle, (x0, y0, width, height, x, y) => {
+    this.setState({
+		popoverAnchor: { x, y, width, height },
+	});
+  }); 
+}
+
+....
+
+<SimpleLineIcons
+    name="options"
+    ref="popoverAnchor"
+    ...otherProps
+/>
+<Popover
+    visible={this.state.showPopover}
+    fromRect={this.state.popoverAnchor}
+    ...otherProps
+>
+    {children}
+</Popover>
 ```
