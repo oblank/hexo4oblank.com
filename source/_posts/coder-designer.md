@@ -2,7 +2,7 @@
 title: React Native 入门问题集
 date: 2018-04-09 18:17:53
 tags:
-  - 设计
+  - ReactNative
   - 程序员
 categories:
   - 开发
@@ -46,7 +46,7 @@ jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot
 修改成
 ```
 #if TARGET_IPHONE_SIMULATOR
-  //remote debug
+  // remote debug
  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
  #else
   // release
@@ -94,4 +94,70 @@ if (handle) {
 >
     {children}
 </Popover>
+```
+
+## 基于webview实现简易浏览器
+在APP内经常需要打开一些URL链接，如果通过外部浏览器打开、返回体验不好，一般会做一个内部的导航，用RN的WebView组件很容易实现，主要是利用`onNavigationStateChange`获得各种状态并处理各导航菜单的表现，同时利用`navigation.setParams`动态设置浏览器的标题栏。
+
+```
+...
+goBack() {
+    this.refs[ WEB_VIEW_REF ].goBack(); }
+
+goForward() {
+    this.refs[ WEB_VIEW_REF ].goForward(); }
+
+reload() {
+    self.refs[ WEB_VIEW_REF ].reload(); }
+
+openShare() {
+    Share.share({ message: 'content', title: 'testshare' })
+        .catch((error) => console.error(error)); }
+
+openWithSafari() {
+    Linking.openURL(this.state.currentUrl)
+        .catch(err => console.error('An error occurred', err)); }
+
+onNavigationStateChange(navState) {
+	this.setState({
+	  backButtonEnabled : navState.canGoBack,
+	  forwardButtonEnabled: navState.canGoForward,
+	  currentUrl : navState.url,
+	  status : navState.title,
+	  loading : navState.loading,
+	  scalesPageToFit : true
+	});
+
+	// 动态更新 headerTitle
+	if (navState.title) {
+		this.props.navigation.setParams({ title: navState.title })
+	}
+}
+
+...
+
+<WebView
+    ref={WEB_VIEW_REF}
+    source={{ uri: url }}
+    style={styles.webView}
+    scalesPageToFit={true}
+    startInLoadingState={true}
+    onNavigationStateChange={(e) => this.onNavigationStateChange(e)}
+/>
+<View style={styles.toolbar}>
+  {/*退回*/}
+  {
+	!this.state.backButtonEnabled && (
+		<View style={[ styles.toolBtn ]}>
+			<SimpleLineIcons name='arrow-left' size={18} style={[ styles.headerIcon, styles.headerIconDisable ]}/>
+		</View>  )
+    }
+    {
+        this.state.backButtonEnabled && (
+            <TouchableOpacity style={styles.toolBtn} onPress={() => this.goBack()}>
+		<SimpleLineIcons name='arrow-left' size={18} style={[ styles.headerIcon ]}/>
+	    </TouchableOpacity>  )
+    }
+...other buttons
+</View>
 ```
