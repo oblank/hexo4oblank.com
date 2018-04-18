@@ -161,3 +161,42 @@ onNavigationStateChange(navState) {
 ...other buttons
 </View>
 ```
+
+## 使用`react-navigation`的`TabNavigator`时Tab之间跳转不能正常返回的情况
+
+如果TabA、TabB同时是`StackNavigator`，当从一个TabA跳到另一个TabB里的某个路由时，返回时常常会处于TabB中而无法正常返回到TabA，一种方法是修改顶部左侧菜单自定义实现返回逻辑，但这种情况下右滑返回手势仍然不能正常返回到TabA。
+
+换种思维，直接将TabA要跳转的页面引入到相应的Tab路由中，代码仍然是一套，只是配了两个路由，路由名字略微不同即可:
+```
+export const RouteHome = StackNavigator({
+  Home : { screen: Views.Home },
+  HBrowser: { screen: Views.Browser },
+  Scanner : { screen: Views.Scanner }, 
+}
+
+export const RouteSetting = StackNavigator({
+  Home : { screen: Views.Home },
+  Browser: { screen: Views.Browser },
+  ScannerB : { screen: Views.Scanner }, 
+}
+```
+上面的 `HBrowser`、`Browser`用了相同的组件，但路由名不同，在`Home`路由中按需跳转`HBrowser`，在`Setting`中就按需跳转`Browser`，这样兼顾了代码复用与交互的问题。
+
+```
+......
+<Hyperlink
+  onPress={ (url, text) => {
+        if (navigation.state && navigation.state.routeName === 'Home') {
+            this.props.navigation.navigate('HBrowser', {url: url, text: text})
+        } else {
+            this.props.navigation.navigate('Browser', {url: url, text: text})
+        }
+    }}
+    linkStyle={styles.url}
+>
+ <Text style={styles.content} selectable={true} selectable={true}>
+  {item.content}
+ </Text> 
+</Hyperlink>
+......
+```
