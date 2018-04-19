@@ -203,19 +203,19 @@ export const RouteSetting = StackNavigator({
 **UPDATE:** 经测试，不同StackNavigator里可以包含同名路由，导航时会优先从该Stack里寻找路由，所以上面的路由在取名时不需要刻意规避，简化如下：
 
 ```
-const BaseRotes = {
+const BaseRoutes = {
   Browser: { screen: Views.Browser },
   Scanner : { screen: Views.Scanner }, 
 };
 
 export const RouteHome = StackNavigator({
   Home : { screen: Views.Home },
-  ...BaseRotes, 
+  ...BaseRoutes, 
 })
 
 export const RouteSetting = StackNavigator({
   Setting : { screen: Views.Home },
-  ...BaseRotes, 
+  ...BaseRoutes, 
 })
 ```
 导航时不再区分路由名：
