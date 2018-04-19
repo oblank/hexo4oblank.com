@@ -172,13 +172,13 @@ export const RouteHome = StackNavigator({
   Home : { screen: Views.Home },
   HBrowser: { screen: Views.Browser },
   Scanner : { screen: Views.Scanner }, 
-}
+})
 
 export const RouteSetting = StackNavigator({
-  Home : { screen: Views.Home },
+  Setting : { screen: Views.Home },
   Browser: { screen: Views.Browser },
   ScannerB : { screen: Views.Scanner }, 
-}
+})
 ```
 上面的 `HBrowser`、`Browser`用了相同的组件，但路由名不同，在`Home`路由中按需跳转`HBrowser`，在`Setting`中就按需跳转`Browser`，这样兼顾了代码复用与交互的问题。
 
@@ -193,6 +193,39 @@ export const RouteSetting = StackNavigator({
         }
     }}
     linkStyle={styles.url}
+>
+ <Text style={styles.content} selectable={true} selectable={true}>
+  {item.content}
+ </Text> 
+</Hyperlink>
+......
+```
+**UPDATE:** 经测试，不同StackNavigator里可以包含同名路由，导航时会优先从该Stack里寻找路由，所以上面的路由在取名时不需要刻意规避，简化如下：
+
+```
+const BaseRotes = {
+  Browser: { screen: Views.Browser },
+  Scanner : { screen: Views.Scanner }, 
+};
+
+export const RouteHome = StackNavigator({
+  Home : { screen: Views.Home },
+  ...BaseRotes, 
+})
+
+export const RouteSetting = StackNavigator({
+  Setting : { screen: Views.Home },
+  ...BaseRotes, 
+})
+```
+导航时不再区分路由名：
+```
+......
+<Hyperlink
+  onPress={ (url, text) => {
+	this.props.navigation.navigate('Browser', {url: url, text: text})
+  }}
+  linkStyle={styles.url}
 >
  <Text style={styles.content} selectable={true} selectable={true}>
   {item.content}
