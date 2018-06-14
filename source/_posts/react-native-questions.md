@@ -233,3 +233,27 @@ export const RouteSetting = StackNavigator({
 </Hyperlink>
 ......
 ```
+## StackNavigator里嵌套了TabNavigator
+
+如果TabNavigator里的Views是根据程序动态生成的，那边多半面临导航找不到路由的问题
+
+同时如果组件既在TabNavigator里使用，也有可能直接在StackNavigator里使用，这个时候 `navigation`指向不同，需要特殊处理才能兼容
+
+具体方法，参考：[https://github.com/react-navigation/react-navigation/issues/335](https://github.com/react-navigation/react-navigation/issues/335)
+
+```react native
+// Community   : CommunityTabs, // 这个方法不能让子级最高层级的 TabBar的情况，譬如按需隐藏 
+Community : { screen: ({ navigation }) => <TabsNavigator screenProps={{ navigation }}/> },
+
+...
+
+// 调用时做一些处理
+navigate = (route, payload) => {
+    if (this.props.screenProps) {
+        this.props.screenProps.navigation.navigate(route, payload)
+    } else {
+        this.props.navigation.navigate(route, payload)
+    }
+}
+...
+```
