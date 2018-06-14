@@ -241,7 +241,7 @@ export const RouteSetting = StackNavigator({
 
 具体方法，参考：[https://github.com/react-navigation/react-navigation/issues/335](https://github.com/react-navigation/react-navigation/issues/335)
 
-```react native
+```reactnative
 // Community   : CommunityTabs, // 这个方法不能让子级最高层级的 TabBar的情况，譬如按需隐藏 
 Community : { screen: ({ navigation }) => <TabsNavigator screenProps={{ navigation }}/> },
 
