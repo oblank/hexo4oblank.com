@@ -4,15 +4,15 @@
 
 # Site
 title: 白板博客
-subtitle: http://oblank.com
+subtitle: https://oblank.com
 description:
 author: oBlank
 language: zh-Hans
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://oblank.com
+url: https://oblank.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
