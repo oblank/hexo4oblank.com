@@ -7,6 +7,104 @@ categories:
   - Noteit
 ---
 
+##Introduction
+Welcome to use "Noteit" software and related services!
+
+"Noteit" software and related services refer to the products and services provided to you by Noteit through a legally owned and operated client application labeled as "Noteit", including but not limited to core functions such as personalized recommendations, publishing information, interactive communication, search and query, and other functions, serving as a platform for creation and communication. The Noteit User Agreement (hereinafter referred to as "this Agreement") is an agreement between you and Noteit regarding your registration, login, and use (hereinafter collectively referred to as "use") of the Noteit software and related services.
+
+In order to provide you with better services, please carefully read and fully understand this agreement before starting to use the "Noteit" software and related services, especially the clauses related to exemption or limitation of liability, rights licensing and information use, agreement to open and use special services, legal application and dispute resolution clauses, etc. If you are under the age of 18, please carefully read and fully understand this agreement with the legal guardian, and obtain the consent of the legal guardian before using the "Noteit" software and related services.
+
+If you do not agree with this agreement, it will result in us being unable to provide you with complete products and services, and you may also choose to stop using it. If you choose to agree or use the "Noteit" software and related services independently, it shall be deemed that you have fully understood this agreement and agree to accept this agreement and other agreements and rules related to the "Noteit" software and related services as a party to this agreement (including but not limited to the "Privacy Policy")（ https://oblank.com/2024/02/07/noteit-privacy/ ）》）Constraints.
+
+##2. "Noteit" software and related services
+
+2.1 You can use the Noteit software and related services to obtain the Noteit client application or access Noteit related websites through pre installation, third-party downloads authorized by Noteit, and other means. If you did not obtain this software from Noteit or a third party authorized by Noteit, Noteit cannot guarantee that the unofficial version of "Noteit" software can be used normally, and any losses you may suffer as a result are not related to Noteit.
+
+2.2 Noteit may develop different versions of application software for different terminal devices, and you should obtain, download, and install the appropriate version based on the actual device condition. If you no longer use the Noteit software and related services, you can also uninstall the corresponding application software yourself.
+
+2.3 In order to better enhance user experience and services, Noteit will periodically provide updates or changes to the "Noteit" software and related services (including but not limited to software modifications, upgrades, feature enhancements, development of new services, software replacements, etc.). You can choose whether to update the corresponding version according to your needs.
+
+To ensure the security of the "Noteit" software and related services and improve user service, after partial or complete updates of the "Noteit" software and related services, Noteit will notify you in an appropriate manner (including but not limited to system prompts, announcements, internal messages, etc.) when feasible, and you have the right to choose to accept the updated version; If you choose not to update, some functions of the "Noteit" software and related services will be restricted or cannot be used normally.
+
+2.4 Unless authorized in writing by Noteit in advance, you shall not access or use the Noteit software and related services in any form, including but not limited to adaptation, copying, dissemination, vertical search, mirroring, or trading, without authorization.
+
+2.5 You understand that when using the "Noteit" software and related services, you need to prepare your own terminal devices (such as computers, phones, etc.) related to the software and related services. Once you open the "Noteit" software or access the "Noteit" website on the terminal device, it is considered that you are using the "Noteit" software and related services. To fully realize the full functionality of "Noteit", you may need to connect your terminal devices to the internet, and you understand that you will bear the necessary costs (such as traffic fees, internet fees, etc.).
+
+2.6 Noteit grants you a personal, non transferable, non exclusive, and non commercial legal right to use the Noteit software and related services. All other rights not expressly authorized in this agreement are still reserved by Noteit. You must obtain written permission from Noteit before exercising these rights, and failure to exercise any of the aforementioned rights by Noteit does not constitute a waiver of such rights.
+
+2.7 You do not need to register to start using the "Noteit" software and related services, but some features or services may be affected. At the same time, you also understand that in order to better use the "Noteit" software and related services, and ensure the security of your account, certain functions and/or certain individual service items (such as post and comment services) will require you to provide real identity information, register and log in according to relevant national laws and regulations before you can use them.
+
+##3. About "Account"
+
+3.1 "Noteit" software and related services provide you with the option to log in through Apple's "Sign in With AppleID" service, which means that you cannot change your login account and password.
+
+3.2 You understand and promise that the account you have set up shall not violate national laws and regulations as well as Noteit's relevant rules, and shall not engage in any behavior that infringes upon national interests, harms the legitimate rights and interests of other citizens, or is harmful to social morality. Your account name, profile picture, profile, and other registration information, as well as other personal information, shall not contain illegal or harmful information, Without the permission of others, it is not allowed to open an account in the name of others (including but not limited to using someone else's name, name, font size, avatar, etc. in a way that can cause confusion), and it is not allowed to maliciously register "Noteit" accounts (including but not limited to frequent registration, batch registration of accounts, etc.). Noteit has the right to review the information you submit.
+
+3.3 Your account is only for your personal use. Without the written consent of Noteit, it is prohibited to give, borrow, rent, transfer, sell or otherwise license others to use the account in any form. If Noteit discovers or has reasonable grounds to believe that the user is not the initial registrant of the account, in order to ensure account security, Noteit has the right to immediately suspend or terminate services provided to the registered account, or cancel the account.
+
+3.4 You are responsible for maintaining the security and confidentiality of your personal account and password, and assume all legal responsibilities for the activities you engage in under the name of your registered account, including but not limited to any legal liabilities that may arise from any data modification, speech expression, payment, or other operational actions you perform on the "Noteit" software and related services. You should attach great importance to the confidentiality of your account and password, and not disclose them to others under any circumstances. If you discover unauthorized use of your account by others or any other security vulnerabilities, you should immediately notify Noteit.
+
+3.5 When losing an account, you can follow Noteit's appeal process to promptly appeal and request the account to be recovered. You understand and acknowledge that Noteit's account retrieval mechanism only needs to identify the consistency between the information filled in the appeal form and the system record data, and cannot identify whether the complainant is a true authorized user of the account. Noteit reminds you to keep your account safe. After using it, you should safely exit. If your account is stolen or lost due to improper storage or other uncontrollable factors, you will bear the corresponding responsibility on your own.
+
+3.6 When registering, using, and managing an account, you should ensure the authenticity of the identity information filled in when registering the account. Please use real, accurate, legal, and valid relevant identification materials and necessary information (including your name and email address, contact phone number, contact address, etc.) when registering and managing the account. According to relevant national laws and regulations, in order to use certain functions of the "Noteit" software and related services, you need to fill in real identity information. Please complete real name authentication in accordance with relevant laws and regulations, and pay attention to updating the above relevant information in a timely manner. If the materials or information you submit are not standardized or meet the requirements, Noteit has the right to refuse to provide you with relevant functions. You may not be able to use the "Noteit" software and related services, or some functions may be restricted during use.
+
+3.7 In addition to registering their own "Noteit" account, users can also authorize the use of their legally owned accounts, including but not limited to Noteit and/or its associated Noteit software user accounts, as well as third-party software user accounts registered with real names, to log in and use "Noteit" software and related services, except for those restricted or prohibited by third-party software or platforms. When users log in and use the existing account mentioned above, they should ensure that the corresponding account has been registered with real name and the relevant terms of this agreement are also applicable.
+
+3.8 You understand and agree that, in addition to logging in and using the "Noteit" software and related services, you may also use your "Noteit" account to log in and use other software and services provided by Noteit and its associated Noteit. When you log in and use the aforementioned services with your "Noteit" account, you will be bound by the User Agreement and other agreement terms of the actual provider of the aforementioned services.
+
+3.9 In order to increase your content exposure and publishing efficiency, you agree that all content published by your account and corresponding account on this software/website is authorized to be automatically synchronized and published to Noteit and/or other software and websites operated by Noteit with your account. Your actions of publishing, modifying, and deleting content on this software/website will be synchronized with other software and websites in the aforementioned series. When you register or log in to Noteit and/or other software products and websites operated by Noteit through a registered account or third-party software user account (if any), you shall comply with the User Agreement and other agreement terms of the software and website itself.
+
+3.10 After completing the account registration, login, and reasonable and necessary identity verification for "Noteit", you can browse and modify the personal identity information you submit at any time. You understand and agree that for security and identity recognition reasons (such as account or password recovery appeal services, etc.), you may not be able to modify the initial registration information and other verification information provided during registration. You can also apply to cancel your account. Noteit will assist you in canceling your account after completing reasonable and necessary verification of personal identity, security status, device information, etc., and delete all information related to your account according to your requirements, except as otherwise provided by laws and regulations.
+
+3.11 You understand and agree that in order to fully utilize your account resources, if you fail to log in for the first time after registration or fail to log in for more than two consecutive months, Noteit has the right to revoke your account.
+
+##4. User Personal Information Protection
+
+Noteit is committed to protecting your personal information (i.e. information that can identify users independently or in combination with other information), and protecting user personal information is one of the fundamental principles of Noteit. During the use of the "Noteit" software and related services, you may need to provide your personal information (including but not limited to name, phone number, location information, etc.) in order for Noteit to provide you with better services and corresponding technical support. Noteit will use encryption technology, anonymization processing, and other security measures that match the "Noteit" software and related services to protect your personal information. For more information on user personal information protection, please refer to the "Privacy Policy"（ https://oblank.com/2024/02/07/noteit-privacy// ）》.
+
+##5. User behavior norms
+
+5.1 User behavior requirements
+You shall be responsible for your use of this software and related services. Unless permitted by law or with the prior written permission of Noteit, your use of "Noteit" software and related services shall not involve any of the following behaviors:
+
+5.1.1 Use any plugins, plugins, systems, or third-party tools that are not authorized or licensed by Noteit to interfere, disrupt, modify, or otherwise affect the normal operation of the Noteit software and related services.
+
+5.1.2 Using or targeting "Noteit" software and related services to engage in any behavior that endangers computer network security, including but not limited to:
+
+(1) Illegal intrusion into other people's networks, interference with normal network functions, theft of network data, and other activities that endanger network security;
+
+(2) Provide programs and tools specifically designed to engage in activities that endanger network security, such as intrusion into networks, interference with normal network functions and protective measures, theft of network data, etc;
+
+(3) Provide technical support, advertising promotion, payment settlement, and other assistance to others who knowingly engage in activities that endanger network security;
+
+(4) Using unauthorized data or accessing unauthorized servers/accounts;
+
+(5) Unauthorized access to public computer networks or other people's computer systems and deletion, modification, or addition of stored information;
+
+(6) Attempting to explore, scan, test vulnerabilities in the "Noteit" system or network without permission, or engaging in other behaviors that disrupt network security;
+
+(7) Attempting to interfere with or disrupt the normal operation of the "Noteit" system or website, intentionally spreading malicious programs or viruses, and other behaviors that disrupt and interfere with normal network information services;
+
+(8) Forgery of TCP/IP packet names or partial names;
+
+(9) Reverse engineer, disassemble, compile, or otherwise attempt to discover the source code of the Noteit software and related services;
+
+(10) Malicious registration of accounts for "Noteit" software and related services, including but not limited to frequent and batch registration of accounts;
+
+(11) Other behaviors that violate laws and regulations, this agreement, relevant rules of Noteit, and infringe upon the legitimate rights and interests of others.
+
+5.1.3 If Noteit has reason to believe that your behavior violates or may violate the above agreement, Noteit may independently judge and handle it, and has the right to terminate the service provided to you without prior notice and pursue relevant legal responsibilities.
+
+5.2 Information Content Specification
+
+5.2.1 After completing real name authentication according to regulations, you can log in to "Noteit" as a registered account or a "Noteit" cooperative platform account to publish content, post comments, etc.
+
+5.2.2 Noteit is committed to making publishing information and following comments a civilized, rational, friendly, and high-quality exchange of opinions. While promoting the development of information dissemination, interactive communication, and post comments, we continuously strengthen our corresponding information security management capabilities, improve self-discipline in information dissemination and post comments, effectively fulfill social responsibilities, abide by national laws and regulations, respect the legitimate rights and interests of citizens, and respect social order and good customs.
+
+5.2.3 The content you comment on, publish, and disseminate should consciously abide by the Constitution, laws, regulations, public order, and respect social morality and socialist system
+
+------
+
 ## 1、导言
 欢迎你使用“Noteit”软件及相关服务！
 
@@ -17,7 +115,7 @@ categories:
 如你不同意本协议，这将导致我们无法为你提供完整的产品和服务，你也可以选择停止使用。如你自主选择同意或使用“Noteit”软件及相关服务，则视为你已充分理解本协议，并同意作为本协议的一方当事人接受本协议以及其他与“Noteit”软件及相关服务相关的协议和规则（包括但不限于《[隐私政策](https://oblank.com/2024/02/07/noteit-privacy/)》）的约束。
 
 ## 2、 “Noteit”软件及相关服务
-2.1 你使用“Noteit”软件及相关服务，可以通过预装、Noteit已授权的第三方下载等方式获取“Noteit”客户端应用程序或访问Noteit（ziliao.app）相关网站。若你并非从Noteit或经Noteit授权的第三方获取本软件的，Noteit无法保证非官方版本的“Noteit”软件能够正常使用，你因此遭受的损失与Noteit无关。
+2.1 你使用“Noteit”软件及相关服务，可以通过预装、Noteit已授权的第三方下载等方式获取“Noteit”客户端应用程序或访问Noteit相关网站。若你并非从Noteit或经Noteit授权的第三方获取本软件的，Noteit无法保证非官方版本的“Noteit”软件能够正常使用，你因此遭受的损失与Noteit无关。
 
 2.2 Noteit可能为不同的终端设备开发不同的应用程序软件版本，你应当根据实际设备状况获取、下载、安装合适的版本。如你不再使用“Noteit”软件及相关服务，你也可自行卸载相应的应用程序软件。
 
